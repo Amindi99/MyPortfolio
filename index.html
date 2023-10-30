@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Portfolio-Amindi Perera</title>
+  <link rel="icon" href="assets/images/favicon.png">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="icon" href="assets/img/favicon.png">
+
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">MY PORTFOLIO</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Amindi Perera</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img class ="profilepicture" src="./assets/images/profile-picture.jpg" alt="Amindi Perera profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Amindi Perera</h1>
+      <p class="section__text__p2">Information Technology Graduate</p>
+      <div class="btn-container">
+        <button style="width: 200px;" class="btn btn-color-1"
+          onclick="window.open('./assets/documents/resume - Amindi.pdf')">
+          Download CV
+        </button>
+        <button style="width: 200px;" class="btn btn-color-1"
+          onclick="window.open('./assets/documents/coverLetter - Amindi.pdf')">
+          Download Cover Letter
+        </button>
+        <!-- <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button> -->
+      </div><br>
+      <div id="socials-container">
+        <img src="./assets/images/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/amindi-perera-0b8866190/'" />
+        <img src="./assets/images/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/Amindi99'" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <center>
+            <img src="./assets/images/experience.png" alt="Experience icon" class="icon" />
+            <h2 class="headertopic">Experience</h2>
+          </center>
+            <p><b class ="expfont">Frontend and Backend Web Development</p>
+            <p style="font-size: 12px">January 2020 - June 2021 (Intern)</p>
+            <p class="experiencelist" style="font-size: 12px">Ministry of Education- Isurupaya, Sri Lanka</p><br>
+            <p><ul class = "exptasks">Tasks -
+              <li>Worked as a developer and administrator in E-thaksalawa.</li>
+              <li>Managed internal and external functions.</li>
+              <li>Developed new web applications and websites for educational purposes</li>
+            </ul></p>
+          </div>
+          <div class="details-container">
+            <center>
+            <img src="./assets/images/education.png" alt="Education icon" class="icon" />
+            <h2 class="headertopic">Education</h2>
+          </center>
+            <ul>
+            <li>BSc (Hons) in Information Technology Specializing in Information Technology</li>
+            <p class="edulist">Sri Lanka Institute of Information Technology (SLIIT) | 2019 February-2023 March</p>
+            <li>Higher Diploma in Information Technology</li>
+            <p class="edulist">Sri Lanka Institute of Information Technology (SLIIT) | 2020 November </p>
+            <li>Diploma in English - Pearson certified Diploma </li>
+            <p class="edulist" >Esoft Metro Campus | 2018 November- 2019 June</p>
+            <li>GCE Advanced Level (A/L's) - Technology stream</li>
+            <p class="edulist" >Gothami Balika Vidyalaya, Colombo 10, Sri Lanka | 2016 - 2018</p>
+            <li>GCE Ordinary Level (O/L's) </li>
+            <p class="edulist" >Ananda Balika Vidyalaya, Colombo 10, Sri Lanka | 2011 - 2015</p>
+          </ul>
+          </div>
+        </div>
+        <div class="text-container">
+          <p class="aboutdescription">
+            "As an IT graduate, I possess a robust foundation in cutting-edge technologies, programming languages,
+             and problem-solving methodologies. My portfolio showcases a diverse range of projects, demonstrating 
+             my expertise in software development and web design. With a keen eye for innovation, I have developed
+              applications that streamline business operations and enhance user experiences. My proficiency in
+               languages such as Java, Python, and JavaScript, coupled with hands-on experience in database
+                management and, underscores my versatility. I am passionate about leveraging technology to drive
+                 efficiency and deliver impactful solutions. Through my portfolio, I invite you to explore my journey
+                  in IT, highlighting my commitment to excellence, creativity, and continuous learning."
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+
+  <section id="experience"><br><br><br>
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Languages and Databases</h2>
+          <div class="article-container">
+            <article>
+              <p>HTML</p>
+              <div class="container">
+                <div class="skills language">90%</div>
+              </div>
+            </article>
+            <article>
+            <p>CSS</p>
+              <div class="container">
+                <div class="skills language">90%</div>
+              </div>
+            </article>
+            <article>
+              <p>Java</p>
+              <div class="container">
+                <div class="skills language">80%</div>
+              </div>
+            </article>
+            <article>
+              <p>Python</p>
+              <div class="container">
+                <div class="skills language">50%</div>
+              </div>
+            </article>
+            <article>
+              <p>MySQL</p>
+              <div class="container">
+                <div class="skills language">90%</div>
+              </div>
+            </article>
+            <article>
+              <p>Firebase</p>
+              <div class="container">
+                <div class="skills language">65%</div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technologies</h2>
+            <div class="article-container">
+              <article>
+                <p>Bootstrap</p>
+                <div class="container">
+                  <div class="skills language">90%</div>
+                </div>
+              </article>
+              <article>
+              <p>Android Studio</p>
+                <div class="container">
+                  <div class="skills language">80%</div>
+                </div>
+              </article>
+              <article>
+                <p>Git</p>
+                <div class="container">
+                  <div class="skills language">90%</div>
+                </div>
+              </article>
+              <article>
+                <p>Netbeans</p>
+                <div class="container">
+                  <div class="skills language">90%</div>
+                </div>
+              </article>
+              <article>
+                <p>Postman</p>
+                <div class="container">
+                  <div class="skills language">70%</div>
+                </div>
+              </article>
+              <article>
+                <p>Adobe XD</p>
+                <div class="container">
+                  <div class="skills language">80%</div>
+                </div>
+              </article>
+            </div>
+          </div>
+      </div>
+    </div>
+    <img src="./assets/images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    <!-- //////////////////////////////////////////////////////////////////////////////////////// -->
+  </section>
+  <br><br><br><br><br>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1><br>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/images/medisafe1.png" alt="Project 1" class="project-img" />
+          </div>
+          <h1 class="experience-sub-title project-title">MediSafe Web Application</h1>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Amindi99/MediSafe-Website'">
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/images/pharmacy.png" alt="Project 2" class="project-img" />
+          </div>
+          <h1 class="experience-sub-title project-title">Pharmacy Management</h1>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Amindi99/PMS-SupplierManagement'">
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/images/cookit.png" alt="Project 3" class="project-img" />
+          </div>
+          <h1 class="experience-sub-title project-title">Cookery Application</h1>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Amindi99/MobileApp--COOKiT'">
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/images/employeemng.png" alt="Project 4" class="project-img" />
+          </div>
+          <h1 class="experience-sub-title project-title">Employee Management</h1>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Amindi99/EmployeeManagementSystem'">
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/images/bmiCal.png" alt="Project 5" class="project-img" />
+          </div>
+          <h1 class="experience-sub-title project-title">BMI Calculator Mobile Application</h1>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Amindi99/BMI_Cal'">
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/images/timetable.png" alt="Project 6" class="project-img" />
+          </div>
+          <h1 class="experience-sub-title project-title">Timetable Management System</h1>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Amindi99/Time-Table-management-system'">
+              Github
+            </button>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+    <img src="./assets/images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/images/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:amindipereral@gmail.com">amindiperera1@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/images/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/amindi-perera-0b8866190/">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/images/github.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://github.com/Amindi99">Github</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Amindi Perera. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
